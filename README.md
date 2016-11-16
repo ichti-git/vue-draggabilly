@@ -1,6 +1,6 @@
-Draggabilly directive for VueJS.
-http://draggabilly.desandro.com/
-See the site for all options and events.
+Draggabilly directive for VueJS.<br />
+http://draggabilly.desandro.com/<br />
+See the site for all options and events.<br />
 
 
 Using it:
@@ -19,9 +19,9 @@ With options:
 <div v-draggabilly="{axis: 'x', handle: '.handle'}"></div>
 ```
 
-Event registering:\n
-v-draggabilly-on:eventName="callbackFunction"\n
-v-draggabilly-once:eventName="callbackFunction"\n
+Event registering:<br />
+v-draggabilly-on:eventName="callbackFunction"<br />
+v-draggabilly-once:eventName="callbackFunction"<br />
 ```html
 <div v-draggabilly v-draggabilly-on:dragStart="dragstart"></div>
 ```
