@@ -2,6 +2,10 @@ Draggabilly directive for VueJS.<br />
 http://draggabilly.desandro.com/<br />
 See the site for all options and events.<br />
 
+Installing with npm:
+```
+npm install vue-draggabilly
+```
 
 Using it:
 ```html
@@ -24,6 +28,7 @@ v-draggabilly-on:eventName="callbackFunction"<br />
 v-draggabilly-once:eventName="callbackFunction"<br />
 ```html
 <div v-draggabilly v-draggabilly-on:dragStart="dragstart"></div>
+<div v-draggabilly v-draggabilly-on:dragStart="dragstart" v-draggabilly-on:dragMove="movingAround"></div>
 ```
 
 
