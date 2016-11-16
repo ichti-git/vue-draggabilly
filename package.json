@@ -1,6 +1,6 @@
 {
   "name": "vue-draggabilly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draggabilly plugin for Vue.js",
   "main": "vue-draggabilly.js",
   "scripts": {
