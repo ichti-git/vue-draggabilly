@@ -1,5 +1,13 @@
 Draggabilly directive for VueJS.
 http://draggabilly.desandro.com/
+See the site for all options and events.
+
+
+Using it:
+```html
+var VueDraggabilly = require('vue-draggabilly');
+Vue.use(VueDraggabilly);
+```
 
 No options dragging:
 ```html
@@ -11,9 +19,9 @@ With options:
 <div v-draggabilly="{axis: 'x', handle: '.handle'}"></div>
 ```
 
-Event registering:
-v-draggabilly-on:eventName="callbackFunction"
-v-draggabilly-once:eventName="callbackFunction"
+Event registering:\n
+v-draggabilly-on:eventName="callbackFunction"\n
+v-draggabilly-once:eventName="callbackFunction"\n
 ```html
 <div v-draggabilly v-draggabilly-on:dragStart="dragstart"></div>
 ```
