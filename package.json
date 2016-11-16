@@ -2,12 +2,16 @@
   "name": "vue-draggabilly",
   "version": "0.1.0",
   "description": "Draggabilly plugin for Vue.js",
-  "main": "index.js",
+  "main": "vue-draggabilly.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "draggabilly": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ichti-git/vue-draggabilly"
   },
   "keywords": [
     "vue",
