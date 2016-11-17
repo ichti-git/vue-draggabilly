@@ -15,9 +15,13 @@
   },
   "keywords": [
     "vue",
+    "vuejs",
     "draggabilly",
     "drag"
   ],
+  "bugs": {
+    "url": "https://github.com/ichti-git/vue-draggabilly/issues"
+  },
   "author": "ichti snotslot@gmail.com",
   "license": "ISC"
 }
